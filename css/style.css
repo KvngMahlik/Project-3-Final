@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Lilita+One&display=swap');
+
+#home-screen{
+    font-family: 'Lilita One', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url(../media/images/The_Call_Banner.png.png);   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+#home-screen{
+    text-align: center;
+}
+
+#welcome-text{
+    padding-top: 2%;
+    color: grey;
+}
+
+#change-bg-color{
+    color: black;
+}
+
+
+.wolfie{
+    bottom: 50%;
+}
+
+
+.wolfie2{
+    margin-left: 75%;
+    animation: wiggle 3s infinite;
+}
+
+.wolfie4{
+
+    background-color: gray;
+    border: none;
+    color: snow;
+    padding: 15px 32px;
+    font-size: 16px; 
+}
+
+.wolfie4:hover{
+    background-color: black;
+}
+
+
+.text{
+    margin-top: 3%;
+    color: black;
+}
+
+
+.main-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    margin-top: 3%;
+}
+
+#super-secret{
+    position: absolute;
+    width: 200px;
+    height: 15px;
+    top: 95%;
+    right: 55%;
+    background-color: grey;
+}
+
+
+#secret-text{
+    position: absolute;
+    top: 80%;
+    right: 25%;
+}
+
+#pack{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+}
+
+
+
+
+#puppies{
+    position: absolute;
+    width: 200px;
+    top: 25%;
+    left: 65%;
+    border-radius: 50%;
+}
+
+@keyframes scaleImg{
+
+    0%{width: 15%;}
+    50%{width: 30%;}
+    100%{width: 15%;}
+}
+
+.animate-img{
+    animation: scaleImg 10s;
+}
+
+
+#popup{
+    position: absolute;
+    top: 7%;
+    font-size: 12rem;
+}
+
+.mom{
+    width: 100vw;
+    height: 100vh;
+}
+
+.color-white{
+    position: absolute;
+    top: 85%;
+    color: red;
+    animation: wiggle 5s infinite;
+}
+
+@keyframes wiggle{
+    0%{transform: translate(5px, 5px) rotate(0deg);}
+    40%{transform: translate(5px, -5px) rotate(1deg);}
+    50%{transform: translate(-5px, 4px) rotate(-1deg);}
+    60%{transform: translate(-9px, 4px) rotate(0deg);}
+    70%{transform: translate(9px, 4px) rotate(-1deg);}
+    80%{transform: translate(-5px, -5px) rotate(1deg);}
+    90%{transform: translate(5px, 4px) rotate(0deg);}
+    100%{transform: translate(5px, -4px) rotate(-1deg);}
+}
+
+#momma-img {
+    position: absolute;
+    margin-top: 25% ;
+    margin-left: 75%;
+    
+}
+#hunt-img {
+    position: absolute;
+    margin-top: 25% ;
+    margin-left: 75%;
+}
+
+
+#wolfie5 {
+    position: absolute;
+    width: 15%;
+    height: 50%;
+    margin-left: -7%;
+}
+#wolfie6 {
+    position: absolute;
+    width: 15%;
+    height: 50%;
+    margin-left: 20%;
+    margin-top: -10%;
+}
+#wolfie7 {
+    position: absolute;
+    width: 15%;
+    height: 50%;
+    margin-left: -30%;
+    margin-top: -30%;
+   
+}
+#wolfie8 {
+    position: absolute;
+    width: 15%;
+    height: 50%;;
+    margin-left: -40%;
+}
+#wolfie9 {
+    position: absolute;
+    width: 15%;
+    height: 50%;
+    margin-left: -20%;
+    margin-top: 20%;
+}
+#wolfie10 {
+    position: absolute;
+    width: 15%;
+    height: 50%;
+    margin-left: 25%;
+    margin-top:10% ;
+}
+#wolfie11 {
+    position: absolute;
+    width: 15%;
+    height: 50%;
+    margin-left: 5%;
+    margin-top: -20%;
+    
+}
+#wolfie12 {
+    position: absolute;
+    margin-left: -30%;
+    margin-top: -10%;
+}
+#wolfie13 {
+    position: absolute;
+}
+#wolfie14 {
+    position: absolute;
+    margin-left: -55%;
+    margin-top: -30%;
+}
+#wolfie15 {
+    position: absolute;
+    margin-left: -55%;
+    margin-top: 10%;
+}
+#wolfie16 {
+    position: absolute;
+    margin-left: 25%;
+    margin-top: -15%;
+}
+#wolfie17 {
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 15%;
+}
+#wolfie18 {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+
+
+
+
+
+
